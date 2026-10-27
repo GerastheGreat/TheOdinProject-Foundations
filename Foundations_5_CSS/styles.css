@@ -1,0 +1,37 @@
+
+/*
+    no period declares elements, didn't know that. I mean, I don't think it's common to update all elements of a specific type on a page
+*/
+
+div {
+    color: purple;
+}
+
+
+.alert-text {
+    color: red;
+}
+
+#title {
+    background-color: blue;
+}
+
+/* Applies to both subsection classes */
+.subsection {
+    color: green;
+}
+/* applies only to items with both subsection and header classes */
+.subsection.header {
+    background-color: orange;
+}
+/* applies only to items with the class subsection and the id preview */
+.subsection#preview {
+    background-color: blue;
+}
+
+/* This applies to any class "contents" that's nested anywhere within a class "ancestor", regardless of how many layers down it is */
+.ancestor .contents {
+    background-color: yellow;
+}
+
+
