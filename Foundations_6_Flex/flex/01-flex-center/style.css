@@ -1,0 +1,23 @@
+.container {
+  background: dodgerblue;
+  border: 4px solid midnightblue;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  #strange, in my original attempt, I forgot to include display: flex
+  # but the below code worked, however, after the display was added, it stopped working.
+  # gonna have to investigate. After searching, seems like flexbox just ignores the following
+  #align-content: center;
+  #justify-items: center;
+}
+
+.box {
+  background: palevioletred;
+  font-weight: bold;
+  text-align: center;
+  border: 6px solid maroon;
+  width: 80px;
+  height: 80px;
+}
